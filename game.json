@@ -1,0 +1,172 @@
+{
+  "passages": [
+    {
+      "text": "Tianyang is at Hotel. He may want to go out and play\n\n[[Go to the Harajuku Street -> Harajuku Street]]\n[[go to Akihabara street -> Akihabara street]]\n",
+      "links": [
+        {
+          "name": "Go to the Harajuku Street ",
+          "link": " Harajuku Street",
+          "pid": "2"
+        },
+        {
+          "name": "go to Akihabara street ",
+          "link": " Akihabara street",
+          "pid": "6"
+        }
+      ],
+      "name": "Tianyang's Hotel at Tokyo",
+      "pid": "1",
+      "position": {
+        "x": "796",
+        "y": "62"
+      }
+    },
+    {
+      "text": "Tianyang is in Harajuku Street right, what is he going to do?\n\n[[go back to the hotel ->Tianyang's Hotel at Tokyo]] \n[[go to eat some Ramen -> Ramen Shop 涓€铇儵銉笺儭銉砞]\n[[Go to the hot spring -> Hot spring]]\n[[Go to eat some Tempura -> Tempura Shop]]\n[[go to Akihabara street -> Akihabara street]]",
+      "links": [
+        {
+          "name": "go back to the hotel ",
+          "link": "Tianyang's Hotel at Tokyo",
+          "pid": "1"
+        },
+        {
+          "name": "Go to the hot spring ",
+          "link": " Hot spring",
+          "pid": "4"
+        },
+        {
+          "name": "Go to eat some Tempura ",
+          "link": " Tempura Shop",
+          "pid": "5"
+        },
+        {
+          "name": "go to Akihabara street ",
+          "link": " Akihabara street",
+          "pid": "6"
+        }
+      ],
+      "name": " Harajuku Street",
+      "pid": "2",
+      "position": {
+        "x": "794",
+        "y": "312"
+      }
+    },
+    {
+      "text": "The ramen is so good and Tianyang is Happy\n\n</style>\n<img\nsrc = https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599622317872&di=e72954696ca706942664ea8972889771&imgtype=0&src=http%3A%2F%2Fci.xiaohongshu.com%2Fe57dd10c-c01a-44ae-95c0-ea2a29e951fb%40r_640w_640h.jpg>\n</div>\n\n[[go back to the street -> Harajuku Street]] ",
+      "links": [
+        {
+          "name": "go back to the street ",
+          "link": " Harajuku Street",
+          "pid": "2"
+        }
+      ],
+      "name": " Ramen Shop 涓€铇儵銉笺儭銉�",
+      "pid": "3",
+      "position": {
+        "x": "386",
+        "y": "394"
+      }
+    },
+    {
+      "text": "Since I do not bring swimming suit I cant enjoy the Hot Spring :(\n\n\n\n[[go back to the street -> Harajuku Street]] \n\n",
+      "links": [
+        {
+          "name": "go back to the street ",
+          "link": " Harajuku Street",
+          "pid": "2"
+        }
+      ],
+      "name": " Hot spring",
+      "pid": "4",
+      "position": {
+        "x": "913",
+        "y": "574"
+      }
+    },
+    {
+      "text": "Tempura is crispy and juicy, and the shrimp inside is very fresh. It was a good lunch\n\n\n\n\n\n\n[[go back to the street -> Harajuku Street]] \n\n\n</style>\n<img\nsrc = http://tiebapic.baidu.com/forum/pic/item/d64d0c6eddc451dab8ee22b0a1fd5266d11632ed.jpg\n</div>",
+      "links": [
+        {
+          "name": "go back to the street ",
+          "link": " Harajuku Street",
+          "pid": "2"
+        }
+      ],
+      "name": " Tempura Shop",
+      "pid": "5",
+      "position": {
+        "x": "629",
+        "y": "580"
+      }
+    },
+    {
+      "text": "[[go back to the hotel ->Tianyang's Hotel at Tokyo]] \n[[go back to the street -> Harajuku Street]] \n[[go to anime shop -> Anime shop]]\n[[ go to book shop -> book Shop]]\n\n</style>\n<img\nsrc= http://tiebapic.baidu.com/forum/w%3D580/sign=c462f0930d4c510faec4e21250582528/6680362bd40735faa5eb60e289510fb30e2408ee.jpg\n</div>",
+      "links": [
+        {
+          "name": "go back to the hotel ",
+          "link": "Tianyang's Hotel at Tokyo",
+          "pid": "1"
+        },
+        {
+          "name": "go back to the street ",
+          "link": " Harajuku Street",
+          "pid": "2"
+        },
+        {
+          "name": "go to anime shop ",
+          "link": " Anime shop",
+          "pid": "7"
+        },
+        {
+          "name": " go to book shop ",
+          "link": " book Shop",
+          "pid": "8"
+        }
+      ],
+      "name": " Akihabara street",
+      "pid": "6",
+      "position": {
+        "x": "1159",
+        "y": "293"
+      }
+    },
+    {
+      "text": "This anime store has lots of toys, cartoon cards, goto models, and expensive character models. I bought a lot.\n\n[[go to Akihabara street -> Akihabara street]]\n\n</style>\n<img\nsrc= http://tiebapic.baidu.com/forum/w%3D580/sign=fc3c9d73217adab43dd01b4bbbd5b36b/84cca823dd54564e967dca62a4de9c82d0584fed.jpg\n</div>",
+      "links": [
+        {
+          "name": "go to Akihabara street ",
+          "link": " Akihabara street",
+          "pid": "6"
+        }
+      ],
+      "name": " Anime shop",
+      "pid": "7",
+      "position": {
+        "x": "1379",
+        "y": "521"
+      }
+    },
+    {
+      "text": "This book store has 5 floor, each floor has different item.\n\n\n[[go to Akihabara street -> Akihabara street]]\n\n</style>\n<img\nsrc = http://tiebapic.baidu.com/forum/w%3D580/sign=94d599694dafa40f3cc6ced59b65038c/74a03a504fc2d5626210feb6f01190ef77c66cee.jpg\n</div>",
+      "links": [
+        {
+          "name": "go to Akihabara street ",
+          "link": " Akihabara street",
+          "pid": "6"
+        }
+      ],
+      "name": " book Shop",
+      "pid": "8",
+      "position": {
+        "x": "1146",
+        "y": "541"
+      }
+    }
+  ],
+  "name": "TIanyang Shen's story",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "369C6C1F-6E50-41D0-B1E3-3524F3C04550"
+}
