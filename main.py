@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import sys,os,json,re
+import sys,os,json
 assert sys.version_info >= (3,8), "This script requires at least Python 3.8"
 
 def load(l):
@@ -14,38 +14,25 @@ def find_passage(game_desc, pid):
             return p
     return {}
 
-def format_passage(description):
-    description = re.sub(r'//([^/]*)//',r'\1',description)
-    description = re.sub(r"''([^']*)''",r'\1',description)
-    description = re.sub(r'~~([^~]*)~~',r'\1',description)
-    description = re.sub(r'\*\*([^\*]*)\*\*',r'\1',description)
-    description = re.sub(r'\*([^\*]*)\*',r'\1',description)
-    description = re.sub(r'\^\^([^\^]*)\^\^',r'\1',description)
-    description = re.sub(r'(\[\[[^\|]*)\|([^\]]*\]\])',r'\1->\2',description)
-    description = re.sub(r'\[\[([^(->)]*)->[^\]]*\]\]',r'[ \1 ]',description)
-    return description
 
 
 # ------------------------------------------------------
 
 def update(current, game_desc, choice):
-    if choice == "":
+    if current == "":
         return current
     for l in current["links"]:
-        if choice == l["name"].lower():
-            current = find_passage(game_desc, l["pid"])
-            if current:
-                return current
-    print("\n\n---------------------\n\nI don't understand what you are asking me to do. Please try again.")
+        if choice == l["name"]. lower():
+            find_passage(game_desc, l["pid"])
     return current
+          
 
 def render(current):
-    print("\n\nYou are at the " + current["name"])
-    print(format_passage(current["text"]))
-    
+    print("you are at the " + current["name"])
+    print(current["text"])
 
 def get_input(current):
-    choice = input("\nWhat would you like to do? (type quit to exit) ")
+    choice = input("What would you like to do? (type quit to exit) ")
     choice = choice.lower()
     if choice in ["quit","q","exit"]:
         return "quit"
@@ -54,8 +41,9 @@ def get_input(current):
 # ------------------------------------------------------
 
 def main():
-    game_desc = load("game.json")
+    game_desc = load("adventure.json")
     current = find_passage(game_desc, game_desc["startnode"])
+    print(current["text"])
     choice = ""
 
     while choice != "quit" and current != {}:
